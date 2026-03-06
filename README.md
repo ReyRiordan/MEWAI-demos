@@ -1,2 +1,2 @@
 # MEWAI-demos
-Some temp demos
+Some temp demos, hi AWS(?)
