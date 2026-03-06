@@ -1,0 +1,74 @@
+{
+  "name": "Chest Pain History Taking",
+  "transcript_items": [
+    {
+      "category": "HPI",
+      "label": "Onset",
+      "description": "Student asked when the chest pain started or how long the patient has had it.",
+      "points": 1
+    },
+    {
+      "category": "HPI",
+      "label": "Quality",
+      "description": "Student asked about the character or nature of the pain (sharp, dull, pressure, burning, etc.).",
+      "points": 1
+    },
+    {
+      "category": "HPI",
+      "label": "Radiation",
+      "description": "Student asked whether the pain radiates or spreads to another location (arm, jaw, back, etc.).",
+      "points": 1
+    },
+    {
+      "category": "Associated Symptoms",
+      "label": "Shortness of Breath",
+      "description": "Student asked about shortness of breath or difficulty breathing.",
+      "points": 1
+    }
+  ],
+  "response_items": [
+    {
+      "name": "Summary Statement",
+      "description": "Provides a concise summary statement that uses semantic vocabulary to highlight the most important elements from history, exam, and testing to interpret and represent the patient's main problem(s). The presence or absence of the following features is assessed: key risk factors, chief complaint, illness time course, and use of semantic qualifiers (e.g., monoarticular vs polyarticular) or unified medical concepts (e.g., volume overload, cardiovascular risk factors).",
+      "response": "Summary Statement",
+      "context_responses": [],
+      "type": "mixed",
+      "features": {
+            "A": "Must be a summary, NOT a recap of history and exam. Should highlight only key features, excluding irrelevant details.",
+            "B": "Mentions age",
+            "C": "Mentions risk factors for cardiac or GI diseases (such as diabetes/DM, hypertension/HTN, smoking, cardiac risk factors, overweight/obesity, use of NSAIDS) explicitly or stated as “cardiac risk factors” or “risk factors for X” or “risk factors of”",
+            "D": "Mentions location of pain/pressure (chest pain/pressure/discomfort, angina, substernal/epigastric pain/pressure, upper abdominal pain/burning, dyspepsia, reflux, heartburn)",
+            "E": "Time course - Mentions episodic nature of pain (intermittent, episodic, recurrent, on-and-off, exertional, brought on by, made worse with, post-prandial, relieved by rest)",
+            "F": "Time course - Mentions progression of pain (worsening, more frequent, more severe, progressive)",
+            "G": "Semantic qualifiers - at least 2 of: “intermittent”, “recurrent”, “episodic”, “chronic”, “acutely worse”, “progressive”, “risk factors for cardiac/GI disease”, “atypical”, “unstable”/“stable”, “exertional”, “post-prandial”"
+      },
+      "scoring": {
+          "4": "All features are present",
+          "3": "5 features present, must include A AND G",
+          "2": "3 features present, must include A",
+          "1": "2 features present, must include A",
+          "0": "1 or 0 features present, OR does not include A"
+      }
+    },
+    {
+      "name": "Differential Diagnosis",
+      "description": "Offers more than one relevant diagnostic possibility, committing to what is most likely and considering what is less likely or unlikely yet important to consider for the main chief complaint. If the chief complaint is a diagnosis or syndrome (e.g., acute on chronic systolic heart failure) then differential to rate may be around the differential for that exacerbation (e.g., medical non-compliance vs arrhythmia).",
+      "response": "Assessment",
+      "context_responses": [],
+      "type": "mixed",
+      "features": {
+            "A": "2 or more diagnoses listed",
+            "B": "Mentions specific diagnosis related to cardiac ischemia (angina, stable/unstable angina, cardiac ischemia, coronary artery disease/CAD, MI, STEMI, NSTEMI, acute coronary syndrome)",
+            "C": "Mentions specific GI diagnosis (GERD, esophageal, reflux, acid, esophageal spasm, esophageal motility, peptic ulcer disease/PUD, biliary disease, gallstones, cholecystitis, cholelithiasis, pancreatitis)",
+            "D": "Statement of probability is explicitly stated (most likely diagnosis is, lead(ing) diagnosis is, likely, probable, worrisome, concerning for)",
+            "E": "Differential diagnosis is implicitly stated (e.g., “cardiac disease”, “esophageal/GI disease”)",
+            "F": "Statement of probability is implied but not explicitly stated (“should consider”, “X is possible”, or ddx list is numbered e.g. #1, X diagnosis, #2, Y diagnosis)"
+      },
+      "scoring": {
+          "2": "A, B, C, and D are present",
+          "1": "A AND [B, C, D, E, OR F]",
+          "0": "0 or 1 features"
+      }
+    }
+  ]
+}

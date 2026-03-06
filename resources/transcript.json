@@ -1,0 +1,46 @@
+[
+  {
+    "role": "user",
+    "content": "Hi, I'm a medical student. Can you tell me what brought you in today?"
+  },
+  {
+    "role": "AI",
+    "content": "I've been having this chest pain since this morning. It's been pretty bad."
+  },
+  {
+    "role": "user",
+    "content": "I'm sorry to hear that. Can you describe what the pain feels like — is it sharp, dull, or more of a pressure?"
+  },
+  {
+    "role": "AI",
+    "content": "It's more like a pressure, a squeezing feeling right in the middle of my chest."
+  },
+  {
+    "role": "user",
+    "content": "When exactly did it start? Was it sudden or did it come on gradually?"
+  },
+  {
+    "role": "AI",
+    "content": "It started about four hours ago, came on pretty suddenly while I was walking upstairs."
+  },
+  {
+    "role": "user",
+    "content": "Does the pain go anywhere else — like down your arm or up to your jaw?"
+  },
+  {
+    "role": "AI",
+    "content": "Yes, actually. It goes down my left arm a little."
+  },
+  {
+    "role": "user",
+    "content": "Have you had any shortness of breath along with the chest pain?"
+  },
+  {
+    "role": "AI",
+    "content": "Yes, a bit. I've been feeling short of breath too, especially when I try to move around."
+  },
+  {
+    "role": "user",
+    "content": "Thank you, that's very helpful. I'd like to examine you now."
+  }
+]

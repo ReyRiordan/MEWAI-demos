@@ -1,0 +1,62 @@
+[
+  {
+    "provider": "inworld",
+    "model": "inworld-tts-1",
+    "voice": "Alex"
+  },
+  {
+    "provider": "inworld",
+    "model": "inworld-tts-1",
+    "voice": "Ashley"
+  },
+  {
+    "provider": "inworld",
+    "model": "inworld-tts-1",
+    "voice": "Craig"
+  },
+  {
+    "provider": "inworld",
+    "model": "inworld-tts-1",
+    "voice": "Deborah"
+  },
+  {
+    "provider": "inworld",
+    "model": "inworld-tts-1",
+    "voice": "Dennis"
+  },
+  {
+    "provider": "inworld",
+    "model": "inworld-tts-1",
+    "voice": "Edward"
+  },
+  {
+    "provider": "inworld",
+    "model": "inworld-tts-1",
+    "voice": "Mark"
+  },
+  {
+    "provider": "inworld",
+    "model": "inworld-tts-1",
+    "voice": "Olivia"
+  },
+  {
+    "provider": "inworld",
+    "model": "inworld-tts-1",
+    "voice": "Sarah"
+  },
+  {
+    "provider": "inworld",
+    "model": "inworld-tts-1",
+    "voice": "Theodore"
+  },
+  {
+    "provider": "inworld",
+    "model": "inworld-tts-1",
+    "voice": "Timothy"
+  },
+  {
+    "provider": "inworld",
+    "model": "inworld-tts-1",
+    "voice": "Wendy"
+  }
+]
