@@ -79,6 +79,9 @@ if st.session_state['stage'] == "MAIN":
                 mime="application/pdf",
                 use_container_width=True
             )
+    
+    st.divider()
+    st.write("Currently stubbed features: parallelized evaluation, eval item flagging, convo summarization agent")
 
 
 elif st.session_state['stage'] == "EVAL_REF":
