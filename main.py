@@ -42,8 +42,7 @@ def set_stage(stage):
 
 if st.session_state['stage'] == "MAIN":
     st.title("MEWAI")
-    st.subheader("Temp onboarding references and demos, code: https://github.com/ReyRiordan/MEWAI-demos")
-    st.write("Please contact me at **reyriordan@gmail.com** or **rhr58@scarletmail.rutgers.edu** if you have any questions or issues!")
+    st.subheader("Temp onboarding references and demos, code -> https://github.com/ReyRiordan/MEWAI-demos")
     st.write("*HuggingFace Spaces is unable to host my simulation demo due to versioning issues, if the link is broken please run it yourself with simulation_demo.py")
 
     st.divider()
@@ -66,7 +65,7 @@ if st.session_state['stage'] == "MAIN":
             "over WebRTC."
         )
         st.button("Reference", key="sim", on_click=set_stage, args=['SIM_REF'], use_container_width=True)
-        st.link_button("Demo", url="https://5dd410f0d6d4d7b25d.gradio.live", use_container_width=True)
+        st.link_button("Demo", url="https://c1d4e5a6b93885afc4.gradio.live", use_container_width=True)
     
     with col3:
         st.header("My AWS Hosting Plans/Notes")
@@ -82,6 +81,7 @@ if st.session_state['stage'] == "MAIN":
     
     st.divider()
     st.write("Currently stubbed features: parallelized evaluation, eval item flagging, convo summarization agent")
+    st.write("Contact: **reyriordan@gmail.com** or **rhr58@scarletmail.rutgers.edu**")
 
 
 elif st.session_state['stage'] == "EVAL_REF":
