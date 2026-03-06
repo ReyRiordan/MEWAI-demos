@@ -1,4 +1,13 @@
 streamlit
+fastapi
+uvicorn
 aiohttp
 pydantic
+pydantic-settings
 python-dotenv
+python-docx
+numpy
+soundfile
+requests
+fastrtc
+gradio
